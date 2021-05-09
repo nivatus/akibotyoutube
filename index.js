@@ -77,7 +77,7 @@ var PREFIX = process.env.PREFIX || "-";
 			case "gifl":
 				pup(`https://www.google.com/search?btnI=I%27m+Feeling+Lucky&q=${encodeURIComponent(query)}`);
 				break;
-			case "орубико":
+			case "ntcn23":
 			case "gi":
 				pup(`https://www.google.com/search?q=${encodeURIComponent(query)}&tbm=isch&safe=${(message.channel.nsfw) ? 'off' : 'on'}`);
 				break;
@@ -206,7 +206,7 @@ response.author.id == message.author.id, { max: 1, time: 30000, errors: ["time"]
               else 
                   return message.channel.send(new MessageEmbed()
                     .setColor("RANDOM")
-                    .setTitle("ты победил меня БЛЯЯЯЯЯ")
+                    .setTitle("ты победил меня")
                     .setDescription("Ладно пофигу."));
             });
           return;
